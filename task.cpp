@@ -14,11 +14,12 @@ Include header for input/output stream, future, chrono, thread, functional, and 
 #include <random>
 
 /*
-Create a function named 'execute' that executes a given packaged task in a separate thread.
+Create a function  'execute' that executes a given packaged task in a separate thread.
 Arguments:
 - t: a function that takes an integer as an argument and returns void
 - load: an integer representing the workload. 
-Returns: void
+Returns: 
+  void
 Details:
 - Create a packaged_task with the given function
 - Get the future from the task
