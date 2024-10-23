@@ -1,0 +1,20 @@
+
+These steps incrementally build a web app that uses Node.js and Express with React components and Jest testing.
+
+Assume Node v20.9.0 is installed on the machine.
+
+Step 1: I need help scaffolding a web app that will use nodejs and express. It should include the React library with sample components and support for testing using Jest. Create the project structure and provide a basic setup for the server and client side. The components are as follows:
+'Counter' - A simple counter component that increments and decrements a value.
+'TodoList' - A component that displays a list of todo items with the ability to add and remove items.
+'UserProfile' - A component that displays user profile information.
+
+Step 2: How can I configure Jest to work with React components?
+
+Step 3: I would like to refactor to use routing for each component. For example the default url would be a welcome page, http://localhost:9000/Counter would display the counter, etc. Add a Home component that will be the default route and contain links to each of the components.
+
+Step 4: Add another component with support for testing using Jest:
+'Weather' - A component that displays the current weather for a given location. The component should include a form to enter the location and a button to fetch the weather data.
+
+Step 5:  How can I add a database connection to my Node.js and Express web app?
+
+Step 6: How do I deploy my Node.js and Express web app to Heroku?
